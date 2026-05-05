@@ -22,6 +22,11 @@ desktop.ini
 # Electron
 out/
 
+# Release installers (use GitHub Releases instead)
+releases/*.exe
+releases/*.dmg
+releases/*.AppImage
+
 # Environment
 .env
 .env.local
