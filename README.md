@@ -4,309 +4,309 @@
 
 ![Main](img/Главная.png)
 
-**Professional Network Tools Suite with Modern OLED Black Design**
+**Профессиональный набор сетевых инструментов с современным OLED Black дизайном**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/eXLu51ve/AuF-Network-Tools/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/eXLu51ve/AuF-Network-Tools)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/eXLu51ve-gjj/AuF-Network-Tools/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/eXLu51ve-gjj/AuF-Network-Tools)
 
-[🇬🇧 English](#) | [🇷🇺 Русский](README.md)
+[🇷🇺 Русский](#) | [🇬🇧 English](README_EN.md)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 📋 Содержание
 
-- [About](#-about)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Screenshots](#-screenshots)
-- [Usage](#-usage)
-- [Development](#-development)
-- [Technologies](#-technologies)
-- [License](#-license)
-
----
-
-## ![Information](img/Информация.png) About
-
-**AuF Network Tools** is a comprehensive network diagnostic and analysis application built with modern Electron, React, and TypeScript technologies. The application provides professional network tools in an elegant interface with OLED Black theme.
-
-### Key Features:
-
-- 🎨 **OLED Black Theme** — true black (#000000) background for comfortable work
-- ⚡ **High Performance** — optimized code and fast response
-- 🌐 **Multilingual** — Russian and English support
-- 🔒 **Security** — AES-GCM credential encryption
-- 🎭 **Smooth Animations** — modern page transitions (300ms)
-- 📊 **Data Visualization** — real-time charts and graphs
+- [О приложении](#-о-приложении)
+- [Возможности](#-возможности)
+- [Установка](#-установка)
+- [Скриншоты](#-скриншоты)
+- [Использование](#-использование)
+- [Разработка](#-разработка)
+- [Технологии](#-технологии)
+- [Лицензия](#-лицензия)
 
 ---
 
-## 🚀 Features
+## ![Информация](img/Информация.png) О приложении
 
-### 🌐 Network Diagnostics
+**AuF Network Tools** — комплексное приложение для диагностики и анализа сетей на базе Electron, React и TypeScript с OLED Black темой.
 
-- **Ping Tool** — host availability check with real-time visualization
-- **Traceroute** — network path analysis hop-by-hop
-- **DNS Resolver** — forward/reverse DNS resolution with multiple record types
+### Ключевые особенности:
 
-### 📡 WiFi Analysis
-
-- **WiFi Scanner** — detect and analyze wireless networks
-- **Channel Analysis** — visualize channel overlap and interference
-- **Signal History** — monitor signal strength changes over time
-- **Band Metrics** — compare 2.4GHz and 5GHz performance
-
-### 🔐 SSH Tools
-
-- **SSH Terminal** — full-featured terminal with xterm.js
-- **13 Beautiful Themes** — Termius Dark/Light, Matrix, Dracula, Nord, Tokyo Night, etc.
-- **256 Colors Support** — full xterm-256color palette
-- **Connection Manager** — save and manage SSH profiles
-- **File Manager** — secure SCP file transfer
-- **Encrypted Storage** — AES-GCM credential encryption
-
-### 🔍 Port Scanner
-
-- **Local Scanning** — check ports in local network
-- **External Scanning** — check port availability from internet
-- **Service Detection** — identify running services
-- **Parallel Scanning** — fast multi-threaded scanning
-
-### 📊 Network Utilities
-
-- **Speed Test** — real download/upload speed measurements
-- **ICMP Ping** — to 8.8.8.8 (average of 4 requests)
-- **64 Parallel Connections** — for accuracy
-- **Dual Graphs** — separate Download and Upload charts
-- **Works in Russia** — without VPN (Yandex.Internetometer approach)
-
-### ⚙️ Settings & Configuration
-
-- **Security** — auto-lock, audit logging, rate limiting
-- **Appearance** — themes, font size, compact mode, animations
-- **Notifications** — event alerts configuration
-- **Performance** — parallel operations, caching
-- **Credentials** — secure SSH keys and passwords storage
-- **Keyboard Shortcuts** — customizable hotkeys
-
-### 🎯 System Tray
-
-- **External IP Display** — updates every 60 seconds
-- **Quick SSH Access** — open SSH terminal instantly
-- **Ping 8.8.8.8** — opens CMD with continuous ping
-- **Quick Translate** — translate clipboard text via Google Translate
+- 🎨 **OLED Black тема** — настоящий черный (#000000) фон для комфортной работы
+- ⚡ **Высокая производительность** — оптимизированный код и быстрый отклик
+- 🌐 **Мультиязычность** — поддержка русского и английского языков
+- 🔒 **Безопасность** — шифрование учетных данных AES-GCM
+- 🎭 **Плавные анимации** — современные переходы между страницами (300ms)
+- 📊 **Визуализация данных** — графики и диаграммы в реальном времени
 
 ---
 
-## ![Installation](img/Установка%20приложений.png) Installation
+## 🚀 Возможности
 
-### System Requirements
+### 🌐 Сетевая диагностика
 
-- **OS:** Windows 10/11 (64-bit), macOS 10.13+, Linux
-- **RAM:** 4 GB minimum, 8 GB recommended
-- **Disk:** 250 MB free space
-- **Internet:** For Speed Test and some features
+- **Ping Tool** — проверка доступности хостов с визуализацией в реальном времени
+- **Traceroute** — анализ сетевого пути hop-by-hop
+- **DNS Resolver** — прямое/обратное DNS разрешение, все типы записей
 
-### Download Installers
+### 📡 WiFi анализ
+
+- **WiFi Scanner** — обнаружение и анализ беспроводных сетей
+- **Анализ каналов** — визуализация загруженности и помех
+- **История сигнала** — мониторинг изменений уровня сигнала
+- **Метрики диапазонов** — сравнение 2.4 ГГц и 5 ГГц
+
+### 🔐 SSH инструменты
+
+- **SSH Terminal** — полнофункциональный терминал с xterm.js
+- **13 красивых тем** — Termius Dark/Light, Matrix, Dracula, Nord, Tokyo Night и др.
+- **Поддержка 256 цветов** — полная xterm-256color палитра
+- **Менеджер подключений** — сохранение и управление SSH профилями
+- **Файловый менеджер** — безопасная передача файлов по SCP
+- **Шифрованное хранилище** — шифрование учетных данных AES-GCM
+
+### 🔍 Сканер портов
+
+- **Локальное сканирование** — проверка портов в локальной сети
+- **Внешнее сканирование** — проверка доступности из интернета
+- **Определение служб** — идентификация запущенных сервисов
+- **Параллельное сканирование** — быстрое многопоточное сканирование
+
+### 📊 Сетевые утилиты
+
+- **Speed Test** — реальные измерения скорости загрузки и отдачи
+- **ICMP Ping** — к 8.8.8.8 (среднее из 4 запросов)
+- **64 параллельных соединения** — для точности измерений
+- **Два графика** — отдельные графики Download и Upload
+- **Работает в России** — без VPN (подход Яндекс.Интернетометр)
+
+### ⚙️ Настройки и конфигурация
+
+- **Безопасность** — автоблокировка, аудит, ограничение запросов
+- **Внешний вид** — темы, размер шрифта, компактный режим, анимации
+- **Уведомления** — настройка оповещений о событиях
+- **Производительность** — параллельные операции, кэширование
+- **Учетные данные** — безопасное хранение SSH ключей и паролей
+- **Горячие клавиши** — настраиваемые комбинации клавиш
+
+### 🎯 Системный трей
+
+- **Показ внешнего IP** — обновляется каждые 60 секунд
+- **Быстрый доступ к SSH** — открыть терминал мгновенно
+- **Ping 8.8.8.8** — открывает CMD с непрерывным ping
+- **Быстрый перевод** — перевод текста из буфера обмена через Google Translate
+
+---
+
+## ![Установка приложений](img/Установка%20приложений.png) Установка
+
+### Системные требования
+
+- **ОС:** Windows 10/11 (64-bit), macOS 10.13+, Linux
+- **RAM:** 4 GB минимум, 8 GB рекомендуется
+- **Диск:** 250 MB свободного места
+- **Интернет:** Для Speed Test и некоторых функций
+
+### Скачать установочники
 
 <div align="center">
 
-| Type | Size | Link |
-|------|------|------|
-| 🪟 **Windows Installer** | 97.7 MB | [Download Setup.exe](releases/AuF%20Network%20Tools-1.0.0-Setup.exe) |
-| 📦 **Windows Portable** | 97.5 MB | [Download Portable.exe](releases/AuF%20Network%20Tools-1.0.0-Portable.exe) |
+| Тип | Размер | Ссылка |
+|-----|--------|--------|
+| 🪟 **Windows Installer** | 97.7 MB | [Скачать Setup.exe](https://github.com/eXLu51ve-gjj/AuF-Network-Tools/releases/latest) |
+| 📦 **Windows Portable** | 97.5 MB | [Скачать Portable.exe](https://github.com/eXLu51ve-gjj/AuF-Network-Tools/releases/latest) |
 
 </div>
 
-### Installation (Windows Installer)
+### Установка (Windows Installer)
 
 1. Download `AuF Network Tools-1.0.0-Setup.exe`
-2. Run the installer
+2. Запустите установочник
 3. Choose installation folder (default: `C:\Program Files\AuF Network Tools`)
-4. Wait for installation to complete
-5. Application will start automatically
-6. Shortcuts created on desktop and Start menu
+4. Дождитесь завершения установки
+5. Приложение запустится автоматически
+6. Ярлыки созданы на рабочем столе и в меню Пуск
 
-### Portable Version
+### Портативная версия
 
 1. Download `AuF Network Tools-1.0.0-Portable.exe`
-2. Copy to any folder
-3. Run the exe file
-4. Done! Settings are saved next to exe
+2. Скопируйте в любую папку
+3. Запустите exe файл
+4. Готово! Настройки сохраняются рядом с exe
 
 ---
 
-## 📸 Screenshots
+## 📸 Скриншоты
 
 ### Dashboard
 ![Dashboard](screen/dashboard.png)
-*Main page with cards of all available tools. Modern design with smooth transition animations.*
+*Главная страница с карточками всех доступных инструментов. Современный дизайн с плавными анимациями.*
 
-### SSH Terminal
+### SSH Терминал
 ![SSH Terminal](screen/ssh%20Терминал.png)
-*Full-featured SSH terminal with 13 themes, 256 colors support, and file manager.*
+*Полнофункциональный SSH терминал с 13 темами оформления, поддержкой 256 цветов и файловым менеджером.*
 
-### Network Diagnostics
+### Сетевая диагностика
 ![Network Diagnostics](screen/Сетевая%20диагностика.png)
-*Network diagnostic tools: Ping, Traceroute, and DNS Resolver with result visualization.*
+*Инструменты диагностики: Ping, Traceroute и DNS Resolver с визуализацией результатов.*
 
-### WiFi Scanner
+### Сканер WiFi
 ![WiFi Scanner](screen/Сканер%20WIFI.png)
-*Wireless network scanning with signal strength analysis, channel utilization, and recommendations.*
+*Сканирование беспроводных сетей с анализом силы сигнала, загруженности каналов и рекомендациями.*
 
-### Port Scanner
+### Сканер портов
 ![Port Scanner](screen/Сканер%20портов.png)
-*Local and external port scanning with service detection.*
+*Локальное и внешнее сканирование портов с определением запущенных служб.*
 
-### Network Utilities
+### Сетевые утилиты
 ![Network Utilities](screen/Сетевые%20утилиты.png)
-*Internet speed test with real Download/Upload measurements and ICMP ping. Glassmorphism design with graphs.*
+*Тест скорости интернета с реальными измерениями Download/Upload и ICMP ping. Glassmorphism дизайн с графиками.*
 
-### System Tray
+### Системный трей
 ![Tray](screen/трей.png)
-*System tray menu: ping check, external IP view, quick SSH terminal access, and quick text translation.*
+*Меню в системном трее: проверка ping, просмотр внешнего IP, быстрый доступ к SSH терминалу и быстрый перевод текста.*
 
 ---
 
-## ![Instructions](img/Инструкция.png) Usage
+## ![Инструкция](img/Инструкция.png) Использование
 
-### First Launch
+### Первый запуск
 
-1. Start the application
-2. Dashboard opens with tool cards
-3. Click any card to navigate to the tool
-4. Enjoy smooth animations!
+1. Запустите приложение
+2. Откроется Dashboard с карточками инструментов
+3. Кликните на любую карточку для перехода к инструменту
+4. Наслаждайтесь плавными анимациями!
 
-### Quick Access
+### Быстрый доступ
 
-- **System Tray** — right-click tray icon
-- **Keyboard Shortcuts** — configure in Settings → Shortcuts
-- **Side Menu** — click menu icon (☰) for navigation
+- **Системный трей** — кликните правой кнопкой на иконку в трее
+- **Горячие клавиши** — настройте в Settings → Shortcuts
+- **Боковое меню** — кликните на иконку меню (☰) для навигации
 
-### Change Language
+### Смена языка
 
-1. Open Settings (⚙️)
+1. Откройте Settings (⚙️)
 2. Go to "Appearance" tab
-3. Select language: English or Русский
+3. Выберите язык: Русский или English
 
 ---
 
-## 🛠️ Development
+## 🛠️ Разработка
 
-### Development Requirements
+### Требования
 
 - Node.js 18+
-- npm or yarn
+- npm или yarn
 - Git
 
-### Clone Repository
+### Клонирование репозитория
 
 ```bash
-git clone https://github.com/eXLu51ve/AuF-Network-Tools.git
+git clone https://github.com/eXLu51ve-gjj/AuF-Network-Tools.git
 cd AuF-Network-Tools
 ```
 
-### Install Dependencies
+### Установка зависимостей
 
 ```bash
 npm install
 ```
 
-### Run in Development Mode
+### Запуск в режиме разработки
 
 ```bash
-npm run build    # Build main and renderer processes
-npm run dev      # Run application
+npm run build    # Сборка main и renderer процессов
+npm run dev      # Запуск приложения
 ```
 
-### Build for Production
+### Сборка для production
 
 ```bash
-npm run build              # Build code
-npm run package:win        # Windows installer + portable
+npm run build              # Сборка кода
+npm run package:win        # Windows установочник + portable
 npm run package:mac        # macOS DMG
 npm run package:linux      # Linux AppImage
 ```
 
-### Project Structure
+### Структура проекта
 
 ```
 AuF-Network-Tools/
 ├── src/
 │   ├── main/              # Main process (Electron)
-│   │   ├── index.ts       # Entry point
-│   │   ├── preload.ts     # Preload script
-│   │   └── services/      # Services (Network, SSH, SpeedTest)
+│   │   ├── index.ts       # Точка входа
+│   │   ├── preload.ts     # Preload скрипт
+│   │   └── services/      # Сервисы (Network, SSH, SpeedTest)
 │   └── renderer/          # Renderer process (React)
-│       ├── App.tsx        # Main component
-│       ├── Router.tsx     # Routing
-│       ├── components/    # Components
-│       ├── pages/         # Pages
-│       ├── contexts/      # React contexts
-│       └── i18n/          # Translations
-├── build/                 # Build resources
-├── releases/              # Ready installers
-├── screen/                # Screenshots
-├── img/                   # README icons
-├── docs/                  # Documentation
+│       ├── App.tsx        # Главный компонент
+│       ├── Router.tsx     # Маршрутизация
+│       ├── components/    # Компоненты
+│       ├── pages/         # Страницы
+│       ├── contexts/      # React контексты
+│       └── i18n/          # Переводы
+├── build/                 # Ресурсы для сборки
+├── releases/              # Готовые установочники
+├── screen/                # Скриншоты
+├── img/                   # Иконки для README
+├── docs/                  # Документация
 └── package.json
 ```
 
 ---
 
-## 🔧 Technologies
+## 🔧 Технологии
 
 ### Frontend
 
-- **Electron** 25.9.8 — cross-platform framework
-- **React** 18.2.0 — UI library
-- **TypeScript** 5.0+ — typed JavaScript
-- **Material-UI** 5.14.0 — UI components
-- **Framer Motion** 10.16.0 — animations
-- **Recharts** 3.8.1 — charts and graphs
-- **xterm.js** 6.0.0 — terminal
-- **React Router** 7.14.2 — routing
+- **Electron** 25.9.8 — кроссплатформенный фреймворк
+- **React** 18.2.0 — UI библиотека
+- **TypeScript** 5.0+ — типизированный JavaScript
+- **Material-UI** 5.14.0 — компоненты UI
+- **Framer Motion** 10.16.0 — анимации
+- **Recharts** 3.8.1 — графики и диаграммы
+- **xterm.js** 6.0.0 — терминал
+- **React Router** 7.14.2 — маршрутизация
 
 ### Backend (Main Process)
 
 - **Node.js** 18+
-- **SSH2** 1.17.0 — SSH client
-- **node-pty** 1.1.0 — pseudoterminal
-- **dns-packet** 5.6.1 — DNS parsing
+- **SSH2** 1.17.0 — SSH клиент
+- **node-pty** 1.1.0 — псевдотерминал
+- **dns-packet** 5.6.1 — DNS парсинг
 
 ### Build Tools
 
-- **Vite** 4.4.0 — bundler
-- **electron-builder** 24.6.0 — installer creation
-- **TypeScript Compiler** — TS compilation
+- **Vite** 4.4.0 — сборщик
+- **electron-builder** 24.6.0 — создание установочников
+- **TypeScript Compiler** — компиляция TS
 
 ---
 
-## ![Note](img/Примечание.png) Note
+## ![Примечание](img/Примечание.png) Примечание
 
-### Known Issues
+### Известные особенности
 
-- **Antiviruses** may block installer (false positive)
-  - Solution: add to exceptions or use portable version
-- **Speedtest.net blocked in Russia**
-  - Solution: using Yandex.Internetometer approach (already implemented)
-- **First launch** may take 2-3 seconds
+- **Антивирусы** могут блокировать установочник (ложное срабатывание)
+  - Решение: добавьте в исключения или используйте portable версию
+- **Speedtest.net заблокирован в России**
+  - Решение: используем подход Яндекс.Интернетометр (уже реализовано)
+- **Первый запуск** может занять 2-3 секунды
 
 ### Security
 
-- All credentials encrypted with AES-GCM
-- Audit logging of all operations
-- Input validation
-- Secure SSH key storage
+- Все учетные данные шифруются AES-GCM
+- Аудит логирование всех операций
+- Валидация всех входных данных
+- Безопасное хранение SSH ключей
 
 ---
 
-## 📄 License
+## 📄 Лицензия
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Этот проект лицензирован под MIT License — см. файл [LICENSE](LICENSE) для деталей.
 
 ---
 
@@ -316,32 +316,32 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🤝 Contributing
+## 🤝 Вклад в проект
 
-Contributions are welcome! Please:
+Вклад приветствуется! Пожалуйста:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Форкните репозиторий
+2. Создайте ветку (`git checkout -b feature/AmazingFeature`)
+3. Закоммитьте изменения (`git commit -m 'Add some AmazingFeature'`)
+4. Запушьте в ветку (`git push origin feature/AmazingFeature`)
+5. Откройте Pull Request
 
 ---
 
-## 📞 Support
+## 📞 Поддержка
 
-If you encounter problems:
+При возникновении проблем:
 
-1. Check [Issues](https://github.com/eXLu51ve/AuF-Network-Tools/issues)
-2. Create a new Issue with problem description
-3. Attach screenshots and logs
+1. Check [Issues](https://github.com/eXLu51ve-gjj/AuF-Network-Tools/issues)
+2. Создайте новый Issue с описанием проблемы
+3. Приложите скриншоты и логи
 
 ---
 
 <div align="center">
 
-**Made with ❤️ in Russia**
+**Сделано с ❤️ в России**
 
-[⬆ Back to Top](#auf-network-tools)
+[⬆ Наверх](#auf-network-tools)
 
 </div>
